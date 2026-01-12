@@ -1,0 +1,48 @@
+Google Play Store Data Analysis (EDA)
+
+Project Overview:
+This project performs Exploratory Data Analysis (EDA) on the Google Play Store apps dataset to find insights on app categories, ratings, installs, pricing, and user trends. The analysis is done using Python libraries like Pandas, NumPy, Matplotlib, and Seaborn. It also includes a simple Streamlit app for interactive visualization.
+
+Objectives:
+- Analyze app distribution by category
+- Study ratings and reviews
+- Compare free vs paid apps
+- Identify most installed apps
+- Explore price vs rating relationships
+- Create an interactive dashboard with Streamlit
+
+Dataset:
+- File: googleplaystore.csv
+- Source: Public dataset from GitHub
+- Contains app info such as name, category, rating, reviews, size, installs, type, price, content rating, etc.
+
+Technologies:
+- Python, Pandas, NumPy
+- Matplotlib, Seaborn
+- Streamlit for dashboard
+- GitHub for code hosting
+
+Project Files:
+- googleplaystore.csv (dataset)
+- eda_playstore.py (analysis script)
+- app.py (Streamlit app)
+- requirements.txt (dependencies)
+
+How to Use:
+1. Clone the repo:
+   git clone https://github.com/LorensMishra/PlayStore-EDA.git
+
+2. Install dependencies:
+   pip install -r requirements.txt
+
+3. Run EDA script:
+   python eda_playstore.py
+
+4. Run Streamlit app:
+   streamlit run app.py
+
+Contact:
+Author: Lorens Mishra
+GitHub: https://github.com/LorensMishra
+LinkedIn: https://www.linkedin.com/in/lorens-mishra
+
